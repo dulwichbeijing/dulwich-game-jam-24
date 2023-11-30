@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulwich Game&nbsp;Jam 2024</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="nav wrapper">
+        <ul>
+            <li>
+                <a href="#home">DGJ 2024</a>
+            </li>
+            <li>
+                <a href="#workshop">Workshop</a>
+            </li>
+            <li>
+                <a href="#qa">Q+A Sessions</a>
+            </li>
+            <li>
+                <a href="#rules">Competition Rules</a>
+            </li>
+            <li>
+                <a href="#signup">Sign-up</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="home" class="hero">
+        <div class="wrapper">
+            <h1 class="hero__title">The Dulwich Game Jam 2024</h1>
+            <h2 class="hero__date">1st - 2nd February 2024</h2>
+            <span class="hero__countdown">
+                <span id="js-countdown-days-hours" class="hero__countdown-days-hours">00 days, 00 hours,</span><br>
+                <span id="js-countdown-mins-secs" class="hero__countdown-mins-secs">00 mins, 00 secs</span>
+            </span>
+        </div>
+    </main>
+    <section id="workshop" class="section section--workshop">
+        <div class="wrapper">
+            <h2>Online game making workshop</h2>
+            <p>Participate in a 1 hour game making workshop led by experts from Ubisoft's China Studios.</p>
+            <ul>
+                <li>Benjamin Gallier - Game Design, Ubisoft Shanghai</li>
+                <li>Francois Remacle - Senior Lead Programmer, Ubisoft Shanghai</li>
+                <li>Gabriel Tan - Art Director, Ubisoft Chengdu</li>
+            </ul>
+        </div>
+    </section>
+    <section id="qa" class="section section--talks">
+        <div class="wrapper">
+            <h2>Q+A sessions</h2>
+            <div class="row">
+                <div class="half">
+                    <h3>Session 1 - Game Design</h3>
+                    <p>30 minute session to discuss all things game design with Benjamin Gallier.</p>
+                    <h3>Session 2 - Programming</h3>
+                    <p>30 minute session to have your coding questions answered by Francois Remacle.</p>
+                    <h3>Session 3 - Art For Games</h3>
+                    <p>30 minute session to speak with Gabriel Tan to learn about his processes for creating game artwork.</p>
+                </div>
+                <div class="half">
+                    <img src="img/workshops.JPG" alt="Benjamin Gallier discusses game design at the 2023 award ceremony">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="rules" class="section section--rules">
+        <div class="wrapper">
+            <h2>Competition rules</h2>
+            <p>You and your teammates will need to create a game relating to a top secret theme.</p>
+            <ul>
+                <li>Teams can consist of 1 to 8 students.</li>
+                <li>
+                    All members in a team must be part of the same age group. For the 2024 Dulwich Game Jam there are 3 different age groups:
+                    <ul>
+                        <li>Junior school (Y5-Y6)</li>
+                        <li>KS3 (Y7-Y9)</li>
+                        <li>KS4/5 (Y10-Y13)</li>
+                    </ul>
+                </li>
+                <li>All team members must be enrolled in an EiM family school for the 2023/2024 academic year.</li>
+                <li>Students can only be a member of 1 team.</li>
+                <li>Students need to include a credits (either in game or as a separate text file) explaining who was responsible for each part of the project.</li>
+                <li>Students are encouraged to create the majority of art and music for their game. If students use any assets found online, full credit must be given to the original author(s) as part of the game’s credits.</li>
+                <li>When you submit your work you need to upload copies of all code, artwork, music, sound effects, etc. you used to create your game.</li>
+                <li>Students need to upload their work by the Sunday lunchtime deadline to be eligible for prizes and swag.</li>
+            </ul>
+        </div>
+    </section>
+    <aside id="signup" class="section section--contact">
+        <div class="wrapper">
+            <h2>Sign-up</h2>
+            <p>For more information, please contact:
+                <a href="mailto:jared.rigby@dulwich.org">Jared Rigby (DCB)</a> or 
+                <a href="mailto:edgar.zillmann@cn.eimglobal.com">Edgar Zillmann (EiM)</a>
+            </p>
+            <p>
+                <a class="button" href="https://forms.office.com/Pages/ResponsePage.aspx?id=BJSKoXM_X06ETG0p9RJpsHk7-WjIJRdPsP64rR1mgL5UM1JOR1I2SDZaUldQSlNGSkxFT0hYSVcwRy4u">Click here to sign up</a>
+            </p>
+        </div>
+    </aside>
+    <aside id="2023" class="section section--contact">
+        <div class="wrapper">
+            <h2>See last year's entires</h2>
+            <div class="row">
+                <div class="half">
+                    <img src="img/group-photo.JPG" alt="Group photo of the 2023 game jam winners at Ubisoft China">
+                </div>
+                <div class="half">
+                    <p>Click on the link below to see last year's event website:</p>
+                    <p>
+                        <a class="button" href="/2023/">Go to last year's website</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">
+        <div class="wrapper footer__container">
+            <div class="footer__credits">
+                &copy; 2023-2024 Education in Motion<br>
+                Website by Jared Rigby
+            </div>
+            <div class="footer__logos">
+                <a href="https://www.eimglobal.com/">
+                    <img class="footer__logo" src="./img/logos/eim.svg" alt="Education in Motion logo">
+                </a>
+                <a href="https://www.ubisoft.com.cn/">
+                    <img class="footer__logo" src="./img/logos/ubisoft.svg" alt="Ubisoft logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/countdown.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+</html>
